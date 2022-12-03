@@ -56,3 +56,4 @@ production:
   database: run_jobs_example_production
   username: <%= ENV["DATABASE_USERNAME"] %>
   password: <%= ENV["DATABASE_PASSWORD"] %>
+  socket: <%= ENV["DATABASE_SOCKET"] %>
