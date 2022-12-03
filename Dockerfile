@@ -10,3 +10,5 @@ RUN bundle config set --local deployment true
 RUN bundle install
 
 COPY . .
+
+CMD ["bin/start"]
