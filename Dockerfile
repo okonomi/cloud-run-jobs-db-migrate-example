@@ -17,4 +17,6 @@ RUN bundle install
 
 COPY . .
 
+RUN bin/rails assets:precompile
+
 CMD ["bin/start"]
